@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { View, Text, TouchableOpacity, Image, ScrollView, Dimensions } from 'react-native';
 // import label from '../../utils/constants/labels/label';
 import EStyleSheet from 'react-native-extended-stylesheet';
-import { TextBox } from './textbox';
+import { TextBox } from './TextBox';
 
 
 let entireScreenWidth = Dimensions.get('window').width;
 EStyleSheet.build({ $rem: entireScreenWidth / 380 });
 
-class LoginScreen extends Component {
+class LoginComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
