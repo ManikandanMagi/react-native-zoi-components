@@ -24,13 +24,11 @@ export class RadioButton extends React.Component {
     render() {
 
         return (
-            <View>
+            <View style={{padding:20}}>
                 {this.props.data.map((item) => {
                     return (
                         <Pressable
-                            // style={
-                            //     item.value === this.state.userOption ? styles.selected : styles.unselected
-                            // }
+                          
                             onPress={() => this.selectHandler(item.value)}>
                             <View style={{
                                 flexDirection: 'row',

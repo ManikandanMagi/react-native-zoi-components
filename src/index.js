@@ -1,13 +1,9 @@
-// import {
-//   requireNativeComponent,
-//   UIManager,
-//   Platform,
-//   ViewStyle,
-// } from 'react-native';
 import { Button } from "./components/button"
 import CheckboxComponent from "./components/checkbox"
 import { RadioButton } from "./components/radiobutton"
 import { TextBoxComponent } from "./components/textbox"
+import ToggleSwitch from "./components/toggleswitch"
+import Tab from './components/tab';
 // const LINKING_ERROR =
 //   `The package 'react-native-zoi-components' doesn't seem to be linked. Make sure: \n\n` +
 //   Platform.select({ ios: "- You have run 'pod install'\n", default: '' }) +
@@ -36,10 +32,18 @@ export const ZCheckbox = (props) => {
   // console.log(props)
   return <CheckboxComponent {...props}></CheckboxComponent>
 }
-
+export const ZToggle = (props) => {
+  return <ToggleSwitch {...props}></ToggleSwitch>
+}
 export const ZButton = (props) => {
   return <Button {...props}></Button>
 }
 export const ZRadioButton = (props) => {
   return <RadioButton {...props}></RadioButton>
+}
+export const ZLoader = (props) => {
+  return <ZLoader {...props}></ZLoader>
+}
+export const ZTab = (props) => {
+  return <Tab {...props}></Tab>
 }

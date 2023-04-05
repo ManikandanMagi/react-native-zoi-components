@@ -41,7 +41,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/ManikandanMagi/react-native-zoi-components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManikandanMagi/react-native-zoi-components.git"
+  },
   "author": "Manikandan <60867339+ManikandanMagi@users.noreply.github.com> (https://github.com/ManikandanMagi)",
   "license": "MIT",
   "bugs": {
@@ -161,5 +164,8 @@
     "prop-types": "^15.8.1",
     "react-native-extended-stylesheet": "^0.12.0",
     "react-native-vector-icons": "^9.2.0"
+  },
+  "directories": {
+    "example": "example"
   }
 }

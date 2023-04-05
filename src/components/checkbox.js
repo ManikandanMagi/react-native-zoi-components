@@ -71,7 +71,9 @@ export default class CheckboxComponent extends Component {
         onPress={this.stateSwitcher.bind(this, this.props.keyValue, this.props.label, this.props.value)}
         underlayColor="transparent"
         style={{ marginVertical: 20 }}>
-        <View style={{
+        <View
+      
+         style={{
           flexDirection: 'row',
           justifyContent: "flex-start",
           alignItems: this.props.align == undefined ? 'center' : this.props.align
