@@ -74,6 +74,7 @@ export default class App extends React.Component {
               autoFocus={false}
               value={this.state.userName}
               onChange={this.onChange}
+              selectionColor={'rgb(17, 147, 161)'}
               textInputStyles={{ // here you can add additional TextInput styles
                 color: "#000000",
                 fontSize: 16,
