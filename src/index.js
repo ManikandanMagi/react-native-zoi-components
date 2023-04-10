@@ -4,6 +4,7 @@ import { RadioButton } from "./components/radiobutton"
 import { TextBoxComponent } from "./components/textbox"
 import ToggleSwitch from "./components/toggleswitch"
 import Tab from './components/tab';
+import CollapsibleCard from "./components/collapsiblecard"
 // const LINKING_ERROR =
 //   `The package 'react-native-zoi-components' doesn't seem to be linked. Make sure: \n\n` +
 //   Platform.select({ ios: "- You have run 'pod install'\n", default: '' }) +
@@ -46,4 +47,7 @@ export const ZLoader = (props) => {
 }
 export const ZTab = (props) => {
   return <Tab {...props}></Tab>
+}
+export const ZCollapsibleCard = (props) => {
+  return <CollapsibleCard {...props}></CollapsibleCard>
 }
